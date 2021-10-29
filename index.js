@@ -6,6 +6,8 @@ var isValue = require("type/value/is"),
 	normalizeOpts = require("es5-ext/object/normalize-options");
 // , contains        = require("es5-ext/string/#/contains");
 
+String.prototype.contains = String.prototype.includes;
+
 var d = (module.exports = function (dscr, value /*, options*/) {
 	var c, e, w, options, desc;
 	if (arguments.length < 2 || typeof dscr !== "string") {
