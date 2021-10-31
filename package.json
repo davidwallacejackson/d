@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"es5-ext": "^0.10.50",
-		"type": "^1.0.1"
+		"type": "^2.5.0"
 	},
 	"devDependencies": {
 		"eslint": "^5.16.0",
